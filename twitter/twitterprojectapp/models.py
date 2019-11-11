@@ -13,7 +13,7 @@ class User(models.Model):
     
     
 class Tweet(models.Model):
-    username=models.ForeignKey(User,on_delete=models.DO_NOTHING)
+    username=models.ForeignKey(User,on_delete=models.CASCADE)
     tweet=models.CharField(max_length=140)
     date_created=models.DateField(auto_now=False)
     date_edited=models.DateField(auto_now_add=False)
