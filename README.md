@@ -77,8 +77,8 @@ python3 manage.py runserver
 
 For UI : Get inside the Javascript directory copy the path of home.html and paste it in the browser.
 
-```
+
 About the project:
 
         My project name is Twitter. My app name is twitter_app. There are 2 classes in my app-models: TweetUser and Tweet TweetUser: It has attributes user_name,email_id and is_deleted(default=false). Tweet: user as a foreign key, tweet_box for the tweet, date created, date_updated and is_deleted(default=false) The ordering will be done through the updated date and time field. Rest API is being used and in that we have used function based view. Partial output of UI is done and is running fine. UI is done using JavaScript and html and also css for styling. Summary: Language: Python - version(3.6.8) Framework: Django - version(2.2.7)
-```
+
