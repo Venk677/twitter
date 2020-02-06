@@ -1,4 +1,4 @@
-# twitter
+Twitter
               A application which works similar to twitter,unlike it's complexity though,this application allows the user to tweet and stores and lets the user delete his tweet.
 
 Twitter
